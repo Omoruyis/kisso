@@ -1,0 +1,60 @@
+{
+  "name": "fullstack-test",
+  "version": "1.0.0",
+  "description": "Technical test for Full Stack Engineer position at Kisso",
+  "repository": "https://github.com/KissoHQ/fullstack-test",
+  "author": "Nazer Aminou <nazer@kissohq.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "add": "^2.0.6",
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "enzyme": "^3.11.0",
+    "install": "^0.13.0",
+    "lodash": "^4.17.15",
+    "npm": "^6.14.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-modal": "^3.11.2",
+    "react-notifications": "^1.6.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "serve": "^11.3.2",
+    "yarn": "^1.22.4"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme-adapter-react-16": "1.15.2",
+    "husky": "4.2.5",
+    "jest-enzyme": "7.1.2",
+    "moxios": "0.4.0"
+  }
+}

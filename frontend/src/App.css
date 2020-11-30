@@ -1,0 +1,360 @@
+.login_section {
+  width: 48%;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
+  padding: 30px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login {
+  color: #010000;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.login_details {
+  color: #978A8A;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0px 1px 2px #00000029;
+  border: 1px solid #E5E5E5;
+  border-top: none;
+  outline: none;
+}
+
+.login_password {
+  width: 100%;
+  box-shadow: 0px 1px 2px #00000029;
+  border: 1px solid #E5E5E5;
+  border-top: none;
+  color: #978A8A;
+  position: relative;
+}
+
+.login_details_password {
+  border: none; 
+  outline: none;
+  padding: 20px;
+  width: 100%;
+}
+
+.password_image {
+  position: absolute;
+  top: 17px; 
+  right: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.login_button {
+  background: #203051;
+  border-radius: 23px;
+  padding: 15px 60px;
+  margin-top: 25px;
+  /* width: 60%; */
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.login_button:hover {
+  background-color: rgb(168, 160, 160);
+  color: #203051;
+}
+
+.login_or {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.login_underline {
+  width: 40%;
+  height: 1px;
+  background-color: #978A8A;
+}
+
+.login_text {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #978A8A;
+}
+
+.login_create_account {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.login_create_account > button {
+  margin-top: 0
+}
+
+.login_create_account > p {
+  margin-bottom: 10px
+}
+
+.move_sign_up {
+  color: blue;
+  margin: 2px 0px 0px 5px;
+}
+
+.move_sign_up:hover {
+  color: rgb(221, 120, 120);;
+}
+
+#disable_button {
+  opacity: 0.6;
+  padding: 15px 30px;
+  cursor: wait;
+}
+
+.signup_margin {
+  margin-top: 10px;
+}
+
+.signup_modal {
+  display: flex;
+  align-items: center;
+}
+
+.register_modal_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup_successful_text {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.signup_modal_signin {
+  text-align: center;
+  color: blue;
+}
+
+.signup_modal_signin:hover {
+  color: rgb(221, 120, 120);;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+}
+
+.nav_item {
+  margin-right: 20px;
+  font-size: 20px;
+  color: rgb(138, 138, 182);
+}
+
+.nav_item:hover {
+  color: rgb(221, 120, 120);
+}
+
+.home {
+  background-color: rgb(231, 234, 235);
+  /* padding: 40px 80px; */
+  padding: 40px 40px 40px 80px;
+  min-height: 85vh;
+}
+
+.home_headers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.users_paragraph {
+  font-size: 20px;
+}
+
+.add_new_user {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.add_new_user:hover {
+  cursor: pointer;
+  color: rgb(221, 120, 120);;
+}
+
+.add_user_icon {
+  margin-left: 10px;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.delete_user {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.delete_user_icon:hover {
+  color: rgb(221, 120, 120);
+  cursor: pointer;
+}
+
+.user_card {
+  background-color: white;
+  height: 420px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-right: 100px;
+}
+
+.user_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px 0 40px;
+}
+
+.user_icon_holder {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(231, 234, 235);;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 25px auto;
+}
+
+.user_icon {
+  font-size: 100px;
+}
+
+.user_row {
+  margin-bottom: 15px;
+}
+
+.user_name {
+  color: black;
+  font-size: 20px;
+}
+
+.user_job_row {
+  border-top: 1px solid gainsboro;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.user_job {
+  color: rgb(148, 148, 228);
+  font-size: 18px;
+}
+
+.user_email {
+  color: rgb(184, 184, 184);
+  font-size: 15px;
+}
+
+.account_details {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 850px) {
+  .login_section {
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+  }
+
+  .home {
+    padding: 40px 40px;
+  }
+
+  .users {
+    justify-content: center;
+  }
+
+  .user_card {
+    margin-right: 0;
+  }
+
+  .add_new_user {
+    margin-right: 0;
+  }
+
+  .nav {
+    height: 10vh;
+  }
+
+  .home {
+    min-height: 90vh;
+  }
+
+  .account_details {
+    margin-top: 150px;
+  }
+
+  .signup_modal {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  #register_mobile_padding {
+    padding-top: 40px;
+  }
+
+  .ReactModal__Content {
+    width: 90% !important;
+    padding: 20px !important;
+    height: 450px !important;
+  }
+
+  #mobile_form {
+    width: 80% !important;
+  }
+
+  .mobile_change_padding {
+    padding-top: 70px !important;
+  }
+
+  .successful_emoji {
+    width: 180px;
+  }
+}
+
+@media (max-width: 500px) {
+  .login_section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

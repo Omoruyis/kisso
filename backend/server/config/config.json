@@ -1,0 +1,7 @@
+{
+    "PORT": 4000,
+    "MONGODB_URI": "mongodb://Omo:test123@ds117691.mlab.com:17691/heroku_gt8t8tzc", 
+    "JWT_SECRET": "ijpjjdkslagcgckjcndjfjafjklsfnklsnvnf",
+    "EMAIL_SECRET": "klfjlajfdjalkfjoiewjklfadlajf"
+}
+
